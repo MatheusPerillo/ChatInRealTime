@@ -15,3 +15,6 @@ io.addListener("connection", (socket) => {
 });
 
 servidorHTTP.listen(4040);
+
+// PARA CONVERSAR COM OUTRAS PESSOAS NO MESMO WIFI:
+// servidorHTTP.listen(4040, "COLE_AQUI_O_SEU_IPv4")
